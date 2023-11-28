@@ -1,0 +1,2826 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/nemo/gufo#Perdurants"
+    }, {
+      "@id" : "_:genid9"
+    }, {
+      "@id" : "_:genid7"
+    }, {
+      "@id" : "_:genid5"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8eq"
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "If presence of cluster of individuals happens in one spatial region SO2, it must also happen in a region containing it (SO1)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S1.1 - Presence SO ttp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid118"
+    }, {
+      "@id" : "_:genid116"
+    }, {
+      "@id" : "_:genid114"
+    }, {
+      "@id" : "_:genid112"
+    }, {
+      "@id" : "_:genid110"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid120"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/nemo/gufo#Perdurants"
+    }, {
+      "@id" : "_:genid17"
+    }, {
+      "@id" : "_:genid15"
+    }, {
+      "@id" : "_:genid13"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid110",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8tpp"
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Associates begin point with beginning of time interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "s3.1 - time interval beginning"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid131"
+    }, {
+      "@id" : "_:genid129"
+    }, {
+      "@id" : "_:genid127"
+    }, {
+      "@id" : "_:genid125"
+    }, {
+      "@id" : "_:genid123"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid133"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#hasBeginPoint"
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#ConcreteEntity"
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid133",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#hasBeginning"
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Associates end point with beginning of time interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "s3.2 - time interval end"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid144"
+    }, {
+      "@id" : "_:genid142"
+    }, {
+      "@id" : "_:genid140"
+    }, {
+      "@id" : "_:genid138"
+    }, {
+      "@id" : "_:genid136"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid146"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#hasEndPoint"
+  } ]
+}, {
+  "@id" : "_:genid138",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid140",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#ConcreteEntity"
+  } ]
+}, {
+  "@id" : "_:genid142",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "_:genid144",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid146",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#hasEnd"
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Associates begin point with beginning of time interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "s3.3 - inverse time interval beginning"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid157"
+    }, {
+      "@id" : "_:genid155"
+    }, {
+      "@id" : "_:genid153"
+    }, {
+      "@id" : "_:genid151"
+    }, {
+      "@id" : "_:genid149"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid159"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid149",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#hasBeginning"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ]
+}, {
+  "@id" : "_:genid151",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid153",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#ConcreteEntity"
+  } ]
+}, {
+  "@id" : "_:genid155",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "_:genid157",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid159",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#hasBeginPoint"
+  } ]
+}, {
+  "@id" : "_:genid160",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Associates end point with beginning of time interval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "s3.4 - inverse time interval end"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid170"
+    }, {
+      "@id" : "_:genid168"
+    }, {
+      "@id" : "_:genid166"
+    }, {
+      "@id" : "_:genid164"
+    }, {
+      "@id" : "_:genid162"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid172"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid162",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid164",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#ConcreteEntity"
+  } ]
+}, {
+  "@id" : "_:genid166",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#hasEnd"
+  } ]
+}, {
+  "@id" : "_:genid168",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid170",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid172",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#hasEndPoint"
+  } ]
+}, {
+  "@id" : "_:genid173",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presence of group of Individuals in both node/system and observation (eq contains)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4.6 - Pr in Obs (eq contains)"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid197"
+    }, {
+      "@id" : "_:genid195"
+    }, {
+      "@id" : "_:genid193"
+    }, {
+      "@id" : "_:genid191"
+    }, {
+      "@id" : "_:genid189"
+    }, {
+      "@id" : "_:genid187"
+    }, {
+      "@id" : "_:genid185"
+    }, {
+      "@id" : "_:genid183"
+    }, {
+      "@id" : "_:genid181"
+    }, {
+      "@id" : "_:genid179"
+    }, {
+      "@id" : "_:genid177"
+    }, {
+      "@id" : "_:genid175"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid199"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8eq"
+  } ]
+}, {
+  "@id" : "_:genid177",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid179",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid181",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid183",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid185",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid187",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid189",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/nemo/gufo#Perdurants"
+    }, {
+      "@id" : "_:genid27"
+    }, {
+      "@id" : "_:genid25"
+    }, {
+      "@id" : "_:genid23"
+    }, {
+      "@id" : "_:genid21"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid191",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid193",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid195",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid197",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#intervalContains"
+  } ]
+}, {
+  "@id" : "_:genid199",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid200",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presence of group of Individuals in both node/system and observation (ntpp contains)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4.5 - Pr in Obs (nttp contains)"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid224"
+    }, {
+      "@id" : "_:genid222"
+    }, {
+      "@id" : "_:genid220"
+    }, {
+      "@id" : "_:genid218"
+    }, {
+      "@id" : "_:genid216"
+    }, {
+      "@id" : "_:genid214"
+    }, {
+      "@id" : "_:genid212"
+    }, {
+      "@id" : "_:genid210"
+    }, {
+      "@id" : "_:genid208"
+    }, {
+      "@id" : "_:genid206"
+    }, {
+      "@id" : "_:genid204"
+    }, {
+      "@id" : "_:genid202"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid226"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid202",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid204",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid206",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid208",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/propaphen#fromPhenomenon"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid210",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid212",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8ntpp"
+  } ]
+}, {
+  "@id" : "_:genid214",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid216",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid218",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid220",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid222",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid224",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#intervalContains"
+  } ]
+}, {
+  "@id" : "_:genid226",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid227",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presence of group of Individuals in both node/system and observation (tpp contains)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4.4 - Pr in Obs (ttp contains)"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid251"
+    }, {
+      "@id" : "_:genid249"
+    }, {
+      "@id" : "_:genid247"
+    }, {
+      "@id" : "_:genid245"
+    }, {
+      "@id" : "_:genid243"
+    }, {
+      "@id" : "_:genid241"
+    }, {
+      "@id" : "_:genid239"
+    }, {
+      "@id" : "_:genid237"
+    }, {
+      "@id" : "_:genid235"
+    }, {
+      "@id" : "_:genid233"
+    }, {
+      "@id" : "_:genid231"
+    }, {
+      "@id" : "_:genid229"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid253"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid229",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid231",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid233",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid235",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid237",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid239",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid241",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid243",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid245",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid247",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid249",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8tpp"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ]
+}, {
+  "@id" : "_:genid251",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#intervalContains"
+  } ]
+}, {
+  "@id" : "_:genid253",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid254",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presence of group of Individuals in both node/system and observation (eq equals)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4.3 - Pr in Obs (eq equals)"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid278"
+    }, {
+      "@id" : "_:genid276"
+    }, {
+      "@id" : "_:genid274"
+    }, {
+      "@id" : "_:genid272"
+    }, {
+      "@id" : "_:genid270"
+    }, {
+      "@id" : "_:genid268"
+    }, {
+      "@id" : "_:genid266"
+    }, {
+      "@id" : "_:genid264"
+    }, {
+      "@id" : "_:genid262"
+    }, {
+      "@id" : "_:genid260"
+    }, {
+      "@id" : "_:genid258"
+    }, {
+      "@id" : "_:genid256"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid280"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid256",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8eq"
+  } ]
+}, {
+  "@id" : "_:genid258",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid260",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid262",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid264",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid266",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid268",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid270",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid272",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid274",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid276",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid278",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#intervalEquals"
+  } ]
+}, {
+  "@id" : "_:genid280",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid281",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presence of group of Individuals in both node/system and observation (ntpp equals)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4.2 - Pr in Obs (nttp equals)"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid305"
+    }, {
+      "@id" : "_:genid303"
+    }, {
+      "@id" : "_:genid301"
+    }, {
+      "@id" : "_:genid299"
+    }, {
+      "@id" : "_:genid297"
+    }, {
+      "@id" : "_:genid295"
+    }, {
+      "@id" : "_:genid293"
+    }, {
+      "@id" : "_:genid291"
+    }, {
+      "@id" : "_:genid289"
+    }, {
+      "@id" : "_:genid287"
+    }, {
+      "@id" : "_:genid285"
+    }, {
+      "@id" : "_:genid283"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid307"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid283",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid285",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid287",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid289",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/nemo/gufo#Perdurants"
+    }, {
+      "@id" : "_:genid39"
+    }, {
+      "@id" : "_:genid37"
+    }, {
+      "@id" : "_:genid35"
+    }, {
+      "@id" : "_:genid33"
+    }, {
+      "@id" : "_:genid31"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid291",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid293",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8ntpp"
+  } ]
+}, {
+  "@id" : "_:genid295",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid297",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid299",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ]
+}, {
+  "@id" : "_:genid301",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid303",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid305",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#intervalEquals"
+  } ]
+}, {
+  "@id" : "_:genid307",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid308",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presence of group of Individuals in both node/system and observation (tpp equals)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4.1 - Pr in Obs (ttp equals)"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid332"
+    }, {
+      "@id" : "_:genid330"
+    }, {
+      "@id" : "_:genid328"
+    }, {
+      "@id" : "_:genid326"
+    }, {
+      "@id" : "_:genid324"
+    }, {
+      "@id" : "_:genid322"
+    }, {
+      "@id" : "_:genid320"
+    }, {
+      "@id" : "_:genid318"
+    }, {
+      "@id" : "_:genid316"
+    }, {
+      "@id" : "_:genid314"
+    }, {
+      "@id" : "_:genid312"
+    }, {
+      "@id" : "_:genid310"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid334"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/propaphen#presenceOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.org/nemo/gufo#Entity"
+  } ]
+}, {
+  "@id" : "_:genid310",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid312",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid314",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid316",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid318",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasTimeInterval"
+  } ]
+}, {
+  "@id" : "_:genid320",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid322",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid324",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "_:genid326",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid328",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid330",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8tpp"
+  } ]
+}, {
+  "@id" : "_:genid332",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#intervalEquals"
+  } ]
+}, {
+  "@id" : "_:genid334",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid335",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "If presence of cluster of individuals happens in one spatial region SO2, it must also happen in a region containing it (SO1):"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S1.3 - Presence SO nttp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid345"
+    }, {
+      "@id" : "_:genid343"
+    }, {
+      "@id" : "_:genid341"
+    }, {
+      "@id" : "_:genid339"
+    }, {
+      "@id" : "_:genid337"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid347"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid337",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid339",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid341",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid343",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "_:genid345",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8ntpp"
+  } ]
+}, {
+  "@id" : "_:genid347",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "If phenomenon happens in one system, it must also happen in its super-system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S2 - Observation in System"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid51"
+    }, {
+      "@id" : "_:genid49"
+    }, {
+      "@id" : "_:genid47"
+    }, {
+      "@id" : "_:genid45"
+    }, {
+      "@id" : "_:genid43"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid53"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/seas/hasSubSystem"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Valid ST Path from gufo begin point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S5.1 - Valid ST Path from gufo"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid92"
+    }, {
+      "@id" : "_:genid90"
+    }, {
+      "@id" : "_:genid88"
+    }, {
+      "@id" : "_:genid86"
+    }, {
+      "@id" : "_:genid84"
+    }, {
+      "@id" : "_:genid82"
+    }, {
+      "@id" : "_:genid80"
+    }, {
+      "@id" : "_:genid78"
+    }, {
+      "@id" : "_:genid76"
+    }, {
+      "@id" : "_:genid74"
+    }, {
+      "@id" : "_:genid72"
+    }, {
+      "@id" : "_:genid70"
+    }, {
+      "@id" : "_:genid68"
+    }, {
+      "@id" : "_:genid66"
+    }, {
+      "@id" : "_:genid64"
+    }, {
+      "@id" : "_:genid62"
+    }, {
+      "@id" : "_:genid60"
+    }, {
+      "@id" : "_:genid58"
+    }, {
+      "@id" : "_:genid56"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid94"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#hasBeginPoint"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://purl.org/nemo/gufo#hasBeginPoint"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationOf"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#observationOf"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#happensIn"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/seas/connectedTo"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#fromPhenomenon"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#after"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#fromPhenomenon"
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#hasSTValidPath"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "If presence of cluster of individuals happens in one spatial region SO2, it must also happen in a region equals to it (SO1):"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S1.2 - Presence SO eq"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid105"
+    }, {
+      "@id" : "_:genid103"
+    }, {
+      "@id" : "_:genid101"
+    }, {
+      "@id" : "_:genid99"
+    }, {
+      "@id" : "_:genid97"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid107"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn"
+  } ]
+}, {
+  "@id" : "http://purl.org/nemo/gufo#ConcreteEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/nemo/gufo#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/nemo/gufo#Perdurants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/nemo/gufo#Object"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8dc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8ec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8eq",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8ntpp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8ntppi"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8ntppi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8po",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8tpp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#rcc8tppi"
+  } ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#rcc8tppi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#intervalEquals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Alencar Medeiros, Gabriel H."
+  }, {
+    "@value" : "Soualmia, Lina F."
+  }, {
+    "@value" : "Zanni-Merk, Cecilia"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "PropaPhen : Core Propagation Phenomenon Ontology"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "gabriel-henrique.alencar-medeiros@univ-rouen.fr"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "Wed Nov 22nd, 2023"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "https://opensource.org/license/mit/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : "Wed Nov 25nd, 2023"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "propaphen"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/def/propaphen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Core Propagation Phenomenon Ontology (PropaPhen) is designed to represent the propagation of any phenomenon in a network, leveraging the spatiotemporal characteristics of propagation from different observation points, with the participation of multiple entities in the process. This ontology will be used in the future in a broader framework for describing, detecting, and predicting the spread of health risks in a network based on heterogeneous textual data."
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://purl.org/nemo/gufo#/1.0.0"
+  }, {
+    "@id" : "http://www.opengis.net/ont/geosparql"
+  }, {
+    "@id" : "http://www.w3.org/2006/time#2016"
+  }, {
+    "@id" : "https://w3id.org/seas/SystemOntology-1.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@value" : "1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/def/propaphen/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#Mickel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/nemo/gufo#Object" ],
+  "https://w3id.org/def/propaphen#hasPresence" : [ {
+    "@id" : "https://w3id.org/def/propaphen#pr1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#O1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/nemo/gufo#hasEndPoint" : [ {
+    "@id" : "https://w3id.org/def/propaphen#t2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ],
+  "https://w3id.org/def/propaphen#happensIn" : [ {
+    "@id" : "https://w3id.org/def/propaphen#s1"
+  } ],
+  "https://w3id.org/def/propaphen#hasTimeInterval" : [ {
+    "@id" : "https://w3id.org/def/propaphen#ti1"
+  } ],
+  "https://w3id.org/def/propaphen#observationOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PO1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#O2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/nemo/gufo#hasBeginPoint" : [ {
+    "@id" : "https://w3id.org/def/propaphen#t3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ],
+  "https://w3id.org/def/propaphen#happensIn" : [ {
+    "@id" : "https://w3id.org/def/propaphen#s3"
+  } ],
+  "https://w3id.org/def/propaphen#observationOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PO2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#Observation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "As a propagation phenomenon is still a general phenomenon (\"\n            Smith, David Woodruff. « Phenomenology ». The Stanford Encyclopedia of Philosophy, édité par Edward N. Zalta, Summer 2018, Metaphysics Research Lab, Stanford University, 2018. Stanford Encyclopedia of Philosophy, https://plato.stanford.edu/archives/sum2018/entries/phenomenology/.\n            \"), different points of view or observations may result in different experiences. A phen:Observation is a gufo:Perdurant that represents a spatial-temporal perspective of a phen:PhenomenonOccurrence (i.e., two observations from different people may differ in the number of details one can give).\n\n            In practice, a phen:Observation may be used to identify what gufo:Individual are participating in a phen:PhenomenonOccurrence for a given node of the network for a given time interval.\n\n            As phen:Observation designs a spatial-temporal cluster itself, it can be used to track valid spatial-temporal paths between several pairs of phen:Observation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Observation of Propagation Phenomenon Occurrence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#P1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#PO1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ],
+  "https://w3id.org/def/propaphen#fromPhenomenon" : [ {
+    "@id" : "https://w3id.org/def/propaphen#P1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#PO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ],
+  "https://w3id.org/def/propaphen#fromPhenomenon" : [ {
+    "@id" : "https://w3id.org/def/propaphen#P1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#Phenomenon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is based on the meaning of the Propagation Phenomenon presented by \"Król, Dariusz, Damien Fay, et Bogdan Gabryś, éd. Propagation Phenomena in Real World Networks. Vol. 85. Intelligent Systems Reference Library. Cham: Springer International Publishing, 2015. https://doi.org/10.1007/978-3-319-15916-4.\"\n        A phenomenon is a gufo:Perdurant that defines a fact or event of scientific interest susceptible to scientific description and explanation (Merriam-Webster dictionary). It does not define the occurrence of a phenomenon but the study of a type of it (i.e., Epidemic phenomena such as COVID-19, Influenza, etc.). As the mentioned phenomena, the study of a phenomenon may only be valid from the first occurrence of it until the last occurrence of it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Propagation Phenomenon Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A gufo:Perdurant that represents the occurrence of a phen:Phenomenon. Similar to the concept of the occurrence of information being propagated in the social information propagation phenomenon on \"Król, Dariusz, Damien Fay, et Bogdan Gabryś, éd. Propagation Phenomena in Real World Networks. Vol. 85. Intelligent Systems Reference Library. Cham: Springer International Publishing, 2015. https://doi.org/10.1007/978-3-319-15916-4.\". Another example would be an outburst in a network from a particular virus type.\n\n        For example, the occurrence of a hurricane in Paris is different from the occurrence of a hurricane in the United States if they are happening simultaneously. Therefore, they are two different instances of phen:PhenomenonOccurrence of the same phen:Phenomenon (Hurricane)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Phenomenon Occurrence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#Presence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A gufo:Perdurant whose sole purpose is to identify the presence of instances of gufo:Individual in a node of the network or, consequently, in a phen:Observation for a given time interval."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Presence of entities in a network node"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#characterizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Identify gufo:Individuals/entities that characterize (are crucial to the existence) of a given phen:Phenomenon.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/nemo/gufo#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Characterizes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#f1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.opengis.net/ont/geosparql#Feature" ],
+  "http://www.opengis.net/ont/geosparql#rcc8ntpp" : [ {
+    "@id" : "https://w3id.org/def/propaphen#s1"
+  } ],
+  "http://www.opengis.net/ont/geosparql#rcc8tpp" : [ {
+    "@id" : "https://w3id.org/def/propaphen#f2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#f2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.opengis.net/ont/geosparql#Feature" ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#f3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.opengis.net/ont/geosparql#Feature" ],
+  "http://www.opengis.net/ont/geosparql#rcc8eq" : [ {
+    "@id" : "https://w3id.org/def/propaphen#f1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#fromPhenomenon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Identifies the phen:Phenomenon that gives the occurrence phen:PhenomenonOccurrence.\n\n\nI.e. A phen:PhenomenonOccurence \"Occurence of a Hurricane in Paris\" is an occurrence of the phen:Phenomenon \"Hurricane\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "fromPhenomenon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Phenomenon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#happensIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Identifies the seas:System where the phen:Observation happens."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Happens In"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#hasPresence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an instance of gufo:Individual/entity to its spatiotemporal presence."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/nemo/gufo#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has Presence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/def/propaphen#presenceOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#hasSTValidPath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents a valid spatial-temporal path between two observations.\n\n\nI.e. From the same phen:PhenomenonOccurrence \"Hurricane in France on 2019\", we may have different phen:Observations like \"Hurricane observed in Rouen on November,2019\" and \"Hurricane observed in Paris on December,2019\". We may say that there is a possibility that the Hurricane went from Rouen to Paris, so there is a valid spatial-temporal path between the first and the second observation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has Spatial-Temporal Valid Path"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#hasSpatialObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relies a gufo:Object to parts of it's geo:SpatialObject.\n\nI.e. A gufo:Object \"Country\" could be related to one geo:SpatialObject that delimits its entire zone, or it could be related to many geo:SpatialObjects for each gufo:Object \"City\" that forms the \"Country\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/nemo/gufo#Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has Spatial Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#hasTimeInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "is an additional property to facilitate the application of Allen's interval algebra of the proper time interval between the start and end point of the gufo:ConcreteEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/nemo/gufo#ConcreteEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entity's Proper Time Interaval"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#observationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Identifies the phen:PhenomenonOccurence observed in the phen:Observation.\n\nI.e. From the same phen:PhenomenonOccurrence \"Hurricane in France on 2019\", we may have different phen:Observations like \"Hurricane observed in Rouen on November,2019\" and \"Hurricane observed in Paris on December,2019\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/propaphen#PhenomenonOccurrence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#observationalPresenceIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates the phen:Presence of multiple gufo:Individuals in a phen:Observation.\n\nI.e. \"Vacines\", \"Pantients of COVID-19\" and \"Pneumonia\" gufo:Indifiduals were present (phen:Presence) on december of 2020 in the phen:Observation \"Spread of COVID-19 in Paris on december of 2020\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Observational Presence In"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Observation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#pr1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/nemo/gufo#hasBeginPoint" : [ {
+    "@id" : "https://w3id.org/def/propaphen#t3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ],
+  "https://w3id.org/def/propaphen#hasTimeInterval" : [ {
+    "@id" : "https://w3id.org/def/propaphen#ti2"
+  } ],
+  "https://w3id.org/def/propaphen#spatialPresenceIn" : [ {
+    "@id" : "https://w3id.org/def/propaphen#f1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#presenceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presence Of"
+  }, {
+    "@value" : "Relates an instance of propaphe:Presence with the Individual/entity spatiotemporally present."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/nemo/gufo#Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#s1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ],
+  "https://w3id.org/seas/connectedTo" : [ {
+    "@id" : "https://w3id.org/def/propaphen#s3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#s2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ],
+  "https://w3id.org/seas/hasSubSystem" : [ {
+    "@id" : "https://w3id.org/def/propaphen#s1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#s3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/seas/System"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#spatialPresenceIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates the presence phen:Presence in a spatial region geo:SpatialObject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/propaphen#Presence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Spatial Presence In"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#t1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2006/time#Instant" ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#t2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2006/time#Instant" ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#t3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2006/time#Instant" ],
+  "http://www.w3.org/2006/time#after" : [ {
+    "@id" : "https://w3id.org/def/propaphen#t1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#t4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2006/time#Instant" ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#ti1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2006/time#Interval" ],
+  "http://www.w3.org/2006/time#hasBeginning" : [ {
+    "@id" : "https://w3id.org/def/propaphen#t1"
+  } ],
+  "http://www.w3.org/2006/time#intervalContains" : [ {
+    "@id" : "https://w3id.org/def/propaphen#ti2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/propaphen#ti2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2006/time#Interval" ],
+  "http://www.w3.org/2006/time#hasEnd" : [ {
+    "@id" : "https://w3id.org/def/propaphen#t4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/seas/Connection",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/nemo/gufo#Perdurants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/seas/ConnectionPoint",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ]
+}, {
+  "@id" : "https://w3id.org/seas/System",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ]
+} ]
