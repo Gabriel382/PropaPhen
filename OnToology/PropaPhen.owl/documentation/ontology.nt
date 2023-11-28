@@ -1,0 +1,1494 @@
+<https://w3id.org/def/propaphen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/propaphen/1.0.0> .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/nemo/gufo#/1.0.0> .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/geosparql> .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time#2016> .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/seas/SystemOntology-1.1> .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/elements/1.1/creator> "Alencar Medeiros, Gabriel H." .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/elements/1.1/creator> "Soualmia, Lina F." .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/elements/1.1/creator> "Zanni-Merk, Cecilia" .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/elements/1.1/title> "PropaPhen : Core Propagation Phenomenon Ontology" .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/terms/contributor> "gabriel-henrique.alencar-medeiros@univ-rouen.fr" .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/terms/created> "Wed Nov 22nd, 2023" .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/terms/license> "https://opensource.org/license/mit/" .
+<https://w3id.org/def/propaphen> <http://purl.org/dc/terms/modified> "Wed Nov 25nd, 2023" .
+<https://w3id.org/def/propaphen> <http://purl.org/vocab/vann/preferredNamespacePrefix> "propaphen" .
+<https://w3id.org/def/propaphen> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/def/propaphen" .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2000/01/rdf-schema#comment> "The Core Propagation Phenomenon Ontology (PropaPhen) is designed to represent the propagation of any phenomenon in a network, leveraging the spatiotemporal characteristics of propagation from different observation points, with the participation of multiple entities in the process. This ontology will be used in the future in a broader framework for describing, detecting, and predicting the spread of health risks in a network based on heterogeneous textual data." .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2002/07/owl#priorVersion> "1.0.0" .
+<https://w3id.org/def/propaphen> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.opengis.net/ont/geosparql#rcc8dc
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+# 
+# http://www.opengis.net/ont/geosparql#rcc8ec
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8ec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+# 
+# http://www.opengis.net/ont/geosparql#rcc8eq
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8eq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.opengis.net/ont/geosparql#rcc8ntpp
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.opengis.net/ont/geosparql#rcc8ntppi> .
+<http://www.opengis.net/ont/geosparql#rcc8ntpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.opengis.net/ont/geosparql#rcc8ntppi
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8ntppi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.opengis.net/ont/geosparql#rcc8po
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8po> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+# 
+# http://www.opengis.net/ont/geosparql#rcc8tpp
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.opengis.net/ont/geosparql#rcc8tppi> .
+<http://www.opengis.net/ont/geosparql#rcc8tpp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.opengis.net/ont/geosparql#rcc8tppi
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#rcc8tppi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.w3.org/2006/time#intervalEquals
+<http://www.w3.org/2006/time#intervalEquals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2006/time#intervalEquals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+# 
+# https://w3id.org/def/propaphen#characterizes
+<https://w3id.org/def/propaphen#characterizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#characterizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/nemo/gufo#Entity> .
+<http://purl.org/nemo/gufo#Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/propaphen#characterizes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/propaphen#Phenomenon> .
+<https://w3id.org/def/propaphen#characterizes> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Identify gufo:Individuals/entities that characterize (are crucial to the existence) of a given phen:Phenomenon.\"" .
+<https://w3id.org/def/propaphen#characterizes> <http://www.w3.org/2000/01/rdf-schema#label> "Characterizes" .
+# 
+# https://w3id.org/def/propaphen#fromPhenomenon
+<https://w3id.org/def/propaphen#fromPhenomenon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#fromPhenomenon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/propaphen#fromPhenomenon> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+<https://w3id.org/def/propaphen#fromPhenomenon> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/propaphen#Phenomenon> .
+<https://w3id.org/def/propaphen#fromPhenomenon> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the phen:Phenomenon that gives the occurrence phen:PhenomenonOccurrence.\n\n\nI.e. A phen:PhenomenonOccurence \"Occurence of a Hurricane in Paris\" is an occurrence of the phen:Phenomenon \"Hurricane\"." .
+<https://w3id.org/def/propaphen#fromPhenomenon> <http://www.w3.org/2000/01/rdf-schema#label> "fromPhenomenon" .
+# 
+# https://w3id.org/def/propaphen#happensIn
+<https://w3id.org/def/propaphen#happensIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#happensIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/propaphen#Observation> .
+<https://w3id.org/def/propaphen#happensIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/seas/System> .
+<https://w3id.org/def/propaphen#happensIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the seas:System where the phen:Observation happens." .
+<https://w3id.org/def/propaphen#happensIn> <http://www.w3.org/2000/01/rdf-schema#label> "Happens In" .
+# 
+# https://w3id.org/def/propaphen#hasPresence
+<https://w3id.org/def/propaphen#hasPresence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#hasPresence> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/propaphen#presenceOf> .
+<https://w3id.org/def/propaphen#hasPresence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/nemo/gufo#Entity> .
+<https://w3id.org/def/propaphen#hasPresence> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/propaphen#Presence> .
+<https://w3id.org/def/propaphen#hasPresence> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an instance of gufo:Individual/entity to its spatiotemporal presence." .
+<https://w3id.org/def/propaphen#hasPresence> <http://www.w3.org/2000/01/rdf-schema#label> "Has Presence" .
+# 
+# https://w3id.org/def/propaphen#hasSTValidPath
+<https://w3id.org/def/propaphen#hasSTValidPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#hasSTValidPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://w3id.org/def/propaphen#hasSTValidPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/propaphen#Observation> .
+<https://w3id.org/def/propaphen#hasSTValidPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/propaphen#Observation> .
+<https://w3id.org/def/propaphen#hasSTValidPath> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a valid spatial-temporal path between two observations.\n\n\nI.e. From the same phen:PhenomenonOccurrence \"Hurricane in France on 2019\", we may have different phen:Observations like \"Hurricane observed in Rouen on November,2019\" and \"Hurricane observed in Paris on December,2019\". We may say that there is a possibility that the Hurricane went from Rouen to Paris, so there is a valid spatial-temporal path between the first and the second observation." .
+<https://w3id.org/def/propaphen#hasSTValidPath> <http://www.w3.org/2000/01/rdf-schema#label> "Has Spatial-Temporal Valid Path" .
+# 
+# https://w3id.org/def/propaphen#hasSpatialObject
+<https://w3id.org/def/propaphen#hasSpatialObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#hasSpatialObject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/nemo/gufo#Object> .
+<https://w3id.org/def/propaphen#hasSpatialObject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<https://w3id.org/def/propaphen#hasSpatialObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Relies a gufo:Object to parts of it's geo:SpatialObject.\n\nI.e. A gufo:Object \"Country\" could be related to one geo:SpatialObject that delimits its entire zone, or it could be related to many geo:SpatialObjects for each gufo:Object \"City\" that forms the \"Country\"." .
+<https://w3id.org/def/propaphen#hasSpatialObject> <http://www.w3.org/2000/01/rdf-schema#label> "Has Spatial Object" .
+# 
+# https://w3id.org/def/propaphen#hasTimeInterval
+<https://w3id.org/def/propaphen#hasTimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#hasTimeInterval> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/nemo/gufo#ConcreteEntity> .
+<http://purl.org/nemo/gufo#ConcreteEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/propaphen#hasTimeInterval> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#ProperInterval> .
+<https://w3id.org/def/propaphen#hasTimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "is an additional property to facilitate the application of Allen's interval algebra of the proper time interval between the start and end point of the gufo:ConcreteEntity" .
+<https://w3id.org/def/propaphen#hasTimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Entity's Proper Time Interaval" .
+# 
+# https://w3id.org/def/propaphen#observationOf
+<https://w3id.org/def/propaphen#observationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#observationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/propaphen#observationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/propaphen#Observation> .
+<https://w3id.org/def/propaphen#observationOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+<https://w3id.org/def/propaphen#observationOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the phen:PhenomenonOccurence observed in the phen:Observation.\n\nI.e. From the same phen:PhenomenonOccurrence \"Hurricane in France on 2019\", we may have different phen:Observations like \"Hurricane observed in Rouen on November,2019\" and \"Hurricane observed in Paris on December,2019\"" .
+<https://w3id.org/def/propaphen#observationOf> <http://www.w3.org/2000/01/rdf-schema#label> "Observation" .
+# 
+# https://w3id.org/def/propaphen#observationalPresenceIn
+<https://w3id.org/def/propaphen#observationalPresenceIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#observationalPresenceIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/propaphen#Presence> .
+<https://w3id.org/def/propaphen#observationalPresenceIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/propaphen#Observation> .
+<https://w3id.org/def/propaphen#observationalPresenceIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates the phen:Presence of multiple gufo:Individuals in a phen:Observation.\n\nI.e. \"Vacines\", \"Pantients of COVID-19\" and \"Pneumonia\" gufo:Indifiduals were present (phen:Presence) on december of 2020 in the phen:Observation \"Spread of COVID-19 in Paris on december of 2020\"." .
+<https://w3id.org/def/propaphen#observationalPresenceIn> <http://www.w3.org/2000/01/rdf-schema#label> "Observational Presence In" .
+# 
+# https://w3id.org/def/propaphen#presenceOf
+<https://w3id.org/def/propaphen#presenceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#presenceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/propaphen#Presence> .
+<https://w3id.org/def/propaphen#presenceOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/nemo/gufo#Entity> .
+<https://w3id.org/def/propaphen#presenceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Presence Of" .
+<https://w3id.org/def/propaphen#presenceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an instance of propaphe:Presence with the Individual/entity spatiotemporally present." .
+# 
+# https://w3id.org/def/propaphen#spatialPresenceIn
+<https://w3id.org/def/propaphen#spatialPresenceIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/propaphen#spatialPresenceIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/propaphen#Presence> .
+<https://w3id.org/def/propaphen#spatialPresenceIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<https://w3id.org/def/propaphen#spatialPresenceIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the presence phen:Presence in a spatial region geo:SpatialObject." .
+<https://w3id.org/def/propaphen#spatialPresenceIn> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Presence In" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/nemo/gufo#ConcreteEntity
+# 
+# http://purl.org/nemo/gufo#Entity
+# 
+# http://purl.org/nemo/gufo#Perdurants
+<http://purl.org/nemo/gufo#Perdurants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.opengis.net/ont/geosparql#SpatialObject
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/nemo/gufo#Object> .
+# 
+# https://w3id.org/def/propaphen#Observation
+<https://w3id.org/def/propaphen#Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/propaphen#Observation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/propaphen#observationOf> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Presence> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Phenomenon> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/nemo/gufo#Perdurants> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/propaphen#Observation> <http://www.w3.org/2000/01/rdf-schema#comment> "As a propagation phenomenon is still a general phenomenon (\"\n            Smith, David Woodruff. « Phenomenology ». The Stanford Encyclopedia of Philosophy, édité par Edward N. Zalta, Summer 2018, Metaphysics Research Lab, Stanford University, 2018. Stanford Encyclopedia of Philosophy, https://plato.stanford.edu/archives/sum2018/entries/phenomenology/.\n            \"), different points of view or observations may result in different experiences. A phen:Observation is a gufo:Perdurant that represents a spatial-temporal perspective of a phen:PhenomenonOccurrence (i.e., two observations from different people may differ in the number of details one can give).\n\n            In practice, a phen:Observation may be used to identify what gufo:Individual are participating in a phen:PhenomenonOccurrence for a given node of the network for a given time interval.\n\n            As phen:Observation designs a spatial-temporal cluster itself, it can be used to track valid spatial-temporal paths between several pairs of phen:Observation." .
+<https://w3id.org/def/propaphen#Observation> <http://www.w3.org/2000/01/rdf-schema#label> "Observation of Propagation Phenomenon Occurrence" .
+# 
+# https://w3id.org/def/propaphen#Phenomenon
+<https://w3id.org/def/propaphen#Phenomenon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/propaphen#Phenomenon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid11 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Presence> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Observation> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/nemo/gufo#Perdurants> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/propaphen#Phenomenon> <http://www.w3.org/2000/01/rdf-schema#comment> "It is based on the meaning of the Propagation Phenomenon presented by \"Król, Dariusz, Damien Fay, et Bogdan Gabryś, éd. Propagation Phenomena in Real World Networks. Vol. 85. Intelligent Systems Reference Library. Cham: Springer International Publishing, 2015. https://doi.org/10.1007/978-3-319-15916-4.\"\n        A phenomenon is a gufo:Perdurant that defines a fact or event of scientific interest susceptible to scientific description and explanation (Merriam-Webster dictionary). It does not define the occurrence of a phenomenon but the study of a type of it (i.e., Epidemic phenomena such as COVID-19, Influenza, etc.). As the mentioned phenomena, the study of a phenomenon may only be valid from the first occurrence of it until the last occurrence of it." .
+<https://w3id.org/def/propaphen#Phenomenon> <http://www.w3.org/2000/01/rdf-schema#label> "Propagation Phenomenon Type" .
+# 
+# https://w3id.org/def/propaphen#PhenomenonOccurrence
+<https://w3id.org/def/propaphen#PhenomenonOccurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/propaphen#PhenomenonOccurrence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid19 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/propaphen#Phenomenon> .
+_:genid21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/propaphen#fromPhenomenon> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Presence> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Phenomenon> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Observation> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/nemo/gufo#Perdurants> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/propaphen#PhenomenonOccurrence> <http://www.w3.org/2000/01/rdf-schema#comment> "A gufo:Perdurant that represents the occurrence of a phen:Phenomenon. Similar to the concept of the occurrence of information being propagated in the social information propagation phenomenon on \"Król, Dariusz, Damien Fay, et Bogdan Gabryś, éd. Propagation Phenomena in Real World Networks. Vol. 85. Intelligent Systems Reference Library. Cham: Springer International Publishing, 2015. https://doi.org/10.1007/978-3-319-15916-4.\". Another example would be an outburst in a network from a particular virus type.\n\n        For example, the occurrence of a hurricane in Paris is different from the occurrence of a hurricane in the United States if they are happening simultaneously. Therefore, they are two different instances of phen:PhenomenonOccurrence of the same phen:Phenomenon (Hurricane)." .
+<https://w3id.org/def/propaphen#PhenomenonOccurrence> <http://www.w3.org/2000/01/rdf-schema#label> "Phenomenon Occurrence" .
+# 
+# https://w3id.org/def/propaphen#Presence
+<https://w3id.org/def/propaphen#Presence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/propaphen#Presence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/nemo/gufo#Entity> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/propaphen#presenceOf> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/propaphen#Observation> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/propaphen#observationalPresenceIn> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Phenomenon> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/propaphen#Observation> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/nemo/gufo#Perdurants> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/propaphen#Presence> <http://www.w3.org/2000/01/rdf-schema#comment> "A gufo:Perdurant whose sole purpose is to identify the presence of instances of gufo:Individual in a node of the network or, consequently, in a phen:Observation for a given time interval." .
+<https://w3id.org/def/propaphen#Presence> <http://www.w3.org/2000/01/rdf-schema#label> "Presence of entities in a network node" .
+# 
+# https://w3id.org/seas/Connection
+<https://w3id.org/seas/Connection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/nemo/gufo#Perdurants> .
+# 
+# https://w3id.org/seas/ConnectionPoint
+<https://w3id.org/seas/ConnectionPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
+# 
+# https://w3id.org/seas/System
+<https://w3id.org/seas/System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/propaphen#Mickel
+<https://w3id.org/def/propaphen#Mickel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#Mickel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/nemo/gufo#Object> .
+<https://w3id.org/def/propaphen#Mickel> <https://w3id.org/def/propaphen#hasPresence> <https://w3id.org/def/propaphen#pr1> .
+# 
+# https://w3id.org/def/propaphen#O1
+<https://w3id.org/def/propaphen#O1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#O1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/propaphen#Observation> .
+<https://w3id.org/def/propaphen#O1> <http://purl.org/nemo/gufo#hasEndPoint> <https://w3id.org/def/propaphen#t2> .
+<https://w3id.org/def/propaphen#O1> <https://w3id.org/def/propaphen#happensIn> <https://w3id.org/def/propaphen#s1> .
+<https://w3id.org/def/propaphen#O1> <https://w3id.org/def/propaphen#hasTimeInterval> <https://w3id.org/def/propaphen#ti1> .
+<https://w3id.org/def/propaphen#O1> <https://w3id.org/def/propaphen#observationOf> <https://w3id.org/def/propaphen#PO1> .
+# 
+# https://w3id.org/def/propaphen#O2
+<https://w3id.org/def/propaphen#O2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#O2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/propaphen#Observation> .
+<https://w3id.org/def/propaphen#O2> <http://purl.org/nemo/gufo#hasBeginPoint> <https://w3id.org/def/propaphen#t3> .
+<https://w3id.org/def/propaphen#O2> <https://w3id.org/def/propaphen#happensIn> <https://w3id.org/def/propaphen#s3> .
+<https://w3id.org/def/propaphen#O2> <https://w3id.org/def/propaphen#observationOf> <https://w3id.org/def/propaphen#PO2> .
+# 
+# https://w3id.org/def/propaphen#P1
+<https://w3id.org/def/propaphen#P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/propaphen#Phenomenon> .
+# 
+# https://w3id.org/def/propaphen#PO1
+<https://w3id.org/def/propaphen#PO1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#PO1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+<https://w3id.org/def/propaphen#PO1> <https://w3id.org/def/propaphen#fromPhenomenon> <https://w3id.org/def/propaphen#P1> .
+# 
+# https://w3id.org/def/propaphen#PO2
+<https://w3id.org/def/propaphen#PO2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#PO2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+<https://w3id.org/def/propaphen#PO2> <https://w3id.org/def/propaphen#fromPhenomenon> <https://w3id.org/def/propaphen#P1> .
+# 
+# https://w3id.org/def/propaphen#f1
+<https://w3id.org/def/propaphen#f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<https://w3id.org/def/propaphen#f1> <http://www.opengis.net/ont/geosparql#rcc8ntpp> <https://w3id.org/def/propaphen#s1> .
+<https://w3id.org/def/propaphen#f1> <http://www.opengis.net/ont/geosparql#rcc8tpp> <https://w3id.org/def/propaphen#f2> .
+# 
+# https://w3id.org/def/propaphen#f2
+<https://w3id.org/def/propaphen#f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+# 
+# https://w3id.org/def/propaphen#f3
+<https://w3id.org/def/propaphen#f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<https://w3id.org/def/propaphen#f3> <http://www.opengis.net/ont/geosparql#rcc8eq> <https://w3id.org/def/propaphen#f1> .
+# 
+# https://w3id.org/def/propaphen#pr1
+<https://w3id.org/def/propaphen#pr1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#pr1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/propaphen#Presence> .
+<https://w3id.org/def/propaphen#pr1> <http://purl.org/nemo/gufo#hasBeginPoint> <https://w3id.org/def/propaphen#t3> .
+<https://w3id.org/def/propaphen#pr1> <https://w3id.org/def/propaphen#hasTimeInterval> <https://w3id.org/def/propaphen#ti2> .
+<https://w3id.org/def/propaphen#pr1> <https://w3id.org/def/propaphen#spatialPresenceIn> <https://w3id.org/def/propaphen#f1> .
+# 
+# https://w3id.org/def/propaphen#s1
+<https://w3id.org/def/propaphen#s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/System> .
+<https://w3id.org/def/propaphen#s1> <https://w3id.org/seas/connectedTo> <https://w3id.org/def/propaphen#s3> .
+# 
+# https://w3id.org/def/propaphen#s2
+<https://w3id.org/def/propaphen#s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/System> .
+<https://w3id.org/def/propaphen#s2> <https://w3id.org/seas/hasSubSystem> <https://w3id.org/def/propaphen#s1> .
+# 
+# https://w3id.org/def/propaphen#s3
+<https://w3id.org/def/propaphen#s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/System> .
+# 
+# https://w3id.org/def/propaphen#t1
+<https://w3id.org/def/propaphen#t1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#t1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+# 
+# https://w3id.org/def/propaphen#t2
+<https://w3id.org/def/propaphen#t2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#t2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+# 
+# https://w3id.org/def/propaphen#t3
+<https://w3id.org/def/propaphen#t3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#t3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+<https://w3id.org/def/propaphen#t3> <http://www.w3.org/2006/time#after> <https://w3id.org/def/propaphen#t1> .
+# 
+# https://w3id.org/def/propaphen#t4
+<https://w3id.org/def/propaphen#t4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#t4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+# 
+# https://w3id.org/def/propaphen#ti1
+<https://w3id.org/def/propaphen#ti1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#ti1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<https://w3id.org/def/propaphen#ti1> <http://www.w3.org/2006/time#hasBeginning> <https://w3id.org/def/propaphen#t1> .
+<https://w3id.org/def/propaphen#ti1> <http://www.w3.org/2006/time#intervalContains> <https://w3id.org/def/propaphen#ti2> .
+# 
+# https://w3id.org/def/propaphen#ti2
+<https://w3id.org/def/propaphen#ti2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/propaphen#ti2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<https://w3id.org/def/propaphen#ti2> <http://www.w3.org/2006/time#hasEnd> <https://w3id.org/def/propaphen#t4> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid108 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid108 <http://www.w3.org/2000/01/rdf-schema#comment> "If presence of cluster of individuals happens in one spatial region SO2, it must also happen in a region containing it (SO1)" .
+_:genid108 <http://www.w3.org/2000/01/rdf-schema#label> "S1.1 - Presence SO ttp" .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid108 <http://www.w3.org/2003/11/swrl#body> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid113 .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid110 .
+_:genid110 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid110 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid112 .
+_:genid112 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid112 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid112 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid114 .
+_:genid114 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid114 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid114 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8tpp> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid116 .
+_:genid116 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid116 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid118 .
+_:genid118 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid118 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid108 <http://www.w3.org/2003/11/swrl#head> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid120 .
+_:genid120 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid120 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid120 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid121 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid121 <http://www.w3.org/2000/01/rdf-schema#comment> "Associates begin point with beginning of time interval" .
+_:genid121 <http://www.w3.org/2000/01/rdf-schema#label> "s3.1 - time interval beginning" .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid121 <http://www.w3.org/2003/11/swrl#body> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid124 .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid123 .
+_:genid123 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid123 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid123 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/nemo/gufo#hasBeginPoint> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid125 .
+_:genid125 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid125 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid127 .
+_:genid127 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid127 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.org/nemo/gufo#ConcreteEntity> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129 .
+_:genid129 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid129 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#Instant> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid131 .
+_:genid131 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid131 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid131 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid121 <http://www.w3.org/2003/11/swrl#head> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid133 .
+_:genid133 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid133 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid133 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#hasBeginning> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid134 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid134 <http://www.w3.org/2000/01/rdf-schema#comment> "Associates end point with beginning of time interval" .
+_:genid134 <http://www.w3.org/2000/01/rdf-schema#label> "s3.2 - time interval end" .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid134 <http://www.w3.org/2003/11/swrl#body> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid137 .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid136 .
+_:genid136 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid136 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid136 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/nemo/gufo#hasEndPoint> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid138 .
+_:genid138 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid138 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140 .
+_:genid140 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid140 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.org/nemo/gufo#ConcreteEntity> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid142 .
+_:genid142 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid142 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#Instant> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid144 .
+_:genid144 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid144 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid144 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid134 <http://www.w3.org/2003/11/swrl#head> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid146 .
+_:genid146 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid146 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid146 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#hasEnd> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid147 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid147 <http://www.w3.org/2000/01/rdf-schema#comment> "Associates begin point with beginning of time interval" .
+_:genid147 <http://www.w3.org/2000/01/rdf-schema#label> "s3.3 - inverse time interval beginning" .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid147 <http://www.w3.org/2003/11/swrl#body> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid149 .
+_:genid149 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid149 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid149 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#hasBeginning> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid151 .
+_:genid151 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid151 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid153 .
+_:genid153 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid153 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.org/nemo/gufo#ConcreteEntity> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid155 .
+_:genid155 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid155 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#Instant> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid157 .
+_:genid157 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid157 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid157 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid147 <http://www.w3.org/2003/11/swrl#head> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159 .
+_:genid159 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid159 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid159 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/nemo/gufo#hasBeginPoint> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid160 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid160 <http://www.w3.org/2000/01/rdf-schema#comment> "Associates end point with beginning of time interval" .
+_:genid160 <http://www.w3.org/2000/01/rdf-schema#label> "s3.4 - inverse time interval end" .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid160 <http://www.w3.org/2003/11/swrl#body> _:genid169 .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid162 .
+_:genid162 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid162 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid164 .
+_:genid164 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid164 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.org/nemo/gufo#ConcreteEntity> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid166 .
+_:genid166 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid166 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid166 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#hasEnd> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid168 .
+_:genid168 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid168 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#Instant> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid170 .
+_:genid170 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid170 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid170 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid160 <http://www.w3.org/2003/11/swrl#head> _:genid171 .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid172 .
+_:genid172 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid172 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/GCE> .
+_:genid172 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/nemo/gufo#hasEndPoint> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid173 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid173 <http://www.w3.org/2000/01/rdf-schema#comment> "Presence of group of Individuals in both node/system and observation (eq contains)" .
+_:genid173 <http://www.w3.org/2000/01/rdf-schema#label> "S4.6 - Pr in Obs (eq contains)" .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid173 <http://www.w3.org/2003/11/swrl#body> _:genid196 .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid194 .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid192 .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid190 .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid186 .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid184 .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid182 .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid180 .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid178 .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid176 .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid175 .
+_:genid175 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid175 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid175 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8eq> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177 .
+_:genid177 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid177 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid177 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid179 .
+_:genid179 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid179 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid181 .
+_:genid181 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid181 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid181 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid183 .
+_:genid183 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid183 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid183 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid185 .
+_:genid185 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid185 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid185 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid187 .
+_:genid187 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid187 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid189 .
+_:genid189 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid189 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid191 .
+_:genid191 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid191 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid193 .
+_:genid193 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid193 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid195 .
+_:genid195 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid195 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid197 .
+_:genid197 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid197 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid197 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#intervalContains> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid173 <http://www.w3.org/2003/11/swrl#head> _:genid198 .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid199 .
+_:genid199 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid199 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid199 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationalPresenceIn> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid200 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid200 <http://www.w3.org/2000/01/rdf-schema#comment> "Presence of group of Individuals in both node/system and observation (ntpp contains)" .
+_:genid200 <http://www.w3.org/2000/01/rdf-schema#label> "S4.5 - Pr in Obs (nttp contains)" .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid200 <http://www.w3.org/2003/11/swrl#body> _:genid223 .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid221 .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid219 .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid217 .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid215 .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid213 .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid211 .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid209 .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid207 .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid205 .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid203 .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid201 .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid202 .
+_:genid202 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid202 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid202 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid204 .
+_:genid204 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid204 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid206 .
+_:genid206 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid206 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid206 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid208 .
+_:genid208 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid208 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid208 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid210 .
+_:genid210 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid210 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid210 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid212 .
+_:genid212 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid212 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid212 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8ntpp> .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid214 .
+_:genid214 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid214 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid216 .
+_:genid216 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid216 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid218 .
+_:genid218 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid218 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid220 .
+_:genid220 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid220 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid222 .
+_:genid222 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid222 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid224 .
+_:genid224 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid224 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid224 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#intervalContains> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid200 <http://www.w3.org/2003/11/swrl#head> _:genid225 .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid226 .
+_:genid226 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid226 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid226 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationalPresenceIn> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid227 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid227 <http://www.w3.org/2000/01/rdf-schema#comment> "Presence of group of Individuals in both node/system and observation (tpp contains)" .
+_:genid227 <http://www.w3.org/2000/01/rdf-schema#label> "S4.4 - Pr in Obs (ttp contains)" .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid227 <http://www.w3.org/2003/11/swrl#body> _:genid250 .
+_:genid250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid248 .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid246 .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid244 .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid242 .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid240 .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid238 .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid236 .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid234 .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid232 .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid230 .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid228 .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid229 .
+_:genid229 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid229 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid229 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid231 .
+_:genid231 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid231 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid233 .
+_:genid233 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid233 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid233 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid235 .
+_:genid235 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid235 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid235 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid237 .
+_:genid237 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid237 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid237 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid239 .
+_:genid239 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid239 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid241 .
+_:genid241 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid241 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid243 .
+_:genid243 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid243 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid245 .
+_:genid245 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid245 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid247 .
+_:genid247 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid247 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid249 .
+_:genid249 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid249 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid249 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8tpp> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid251 .
+_:genid251 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid251 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid251 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#intervalContains> .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid227 <http://www.w3.org/2003/11/swrl#head> _:genid252 .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid253 .
+_:genid253 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid253 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid253 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationalPresenceIn> .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid254 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid254 <http://www.w3.org/2000/01/rdf-schema#comment> "Presence of group of Individuals in both node/system and observation (eq equals)" .
+_:genid254 <http://www.w3.org/2000/01/rdf-schema#label> "S4.3 - Pr in Obs (eq equals)" .
+_:genid254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid254 <http://www.w3.org/2003/11/swrl#body> _:genid277 .
+_:genid277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid275 .
+_:genid275 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid273 .
+_:genid273 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid271 .
+_:genid271 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid269 .
+_:genid269 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid267 .
+_:genid267 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid265 .
+_:genid265 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid263 .
+_:genid263 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid261 .
+_:genid261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid259 .
+_:genid259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid257 .
+_:genid257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid255 .
+_:genid255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid256 .
+_:genid256 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid256 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid256 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8eq> .
+_:genid256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid258 .
+_:genid258 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid258 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid258 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid260 .
+_:genid260 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid260 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid262 .
+_:genid262 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid262 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid262 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid263 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid264 .
+_:genid264 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid264 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid264 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid264 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid263 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid265 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid266 .
+_:genid266 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid266 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid266 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid266 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid265 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid267 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid268 .
+_:genid268 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid268 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid268 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid267 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid269 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid270 .
+_:genid270 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid270 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid270 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid269 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid271 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid272 .
+_:genid272 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid272 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid272 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid271 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid273 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid274 .
+_:genid274 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid274 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid274 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid273 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid275 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid276 .
+_:genid276 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid276 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid276 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid275 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid278 .
+_:genid278 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid278 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid278 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#intervalEquals> .
+_:genid278 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid254 <http://www.w3.org/2003/11/swrl#head> _:genid279 .
+_:genid279 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid279 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid280 .
+_:genid280 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid280 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid280 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationalPresenceIn> .
+_:genid280 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid279 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid281 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid281 <http://www.w3.org/2000/01/rdf-schema#comment> "Presence of group of Individuals in both node/system and observation (ntpp equals)" .
+_:genid281 <http://www.w3.org/2000/01/rdf-schema#label> "S4.2 - Pr in Obs (nttp equals)" .
+_:genid281 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid281 <http://www.w3.org/2003/11/swrl#body> _:genid304 .
+_:genid304 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid302 .
+_:genid302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid300 .
+_:genid300 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid298 .
+_:genid298 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid296 .
+_:genid296 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid294 .
+_:genid294 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid292 .
+_:genid292 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid290 .
+_:genid290 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid288 .
+_:genid288 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid286 .
+_:genid286 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid284 .
+_:genid284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid282 .
+_:genid282 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid282 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid283 .
+_:genid283 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid283 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid283 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid283 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid282 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid285 .
+_:genid285 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid285 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid285 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid286 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid287 .
+_:genid287 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid287 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid287 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid287 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid286 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid288 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid289 .
+_:genid289 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid289 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid289 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid289 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid288 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid290 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid291 .
+_:genid291 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid291 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid291 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid291 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid290 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid292 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid293 .
+_:genid293 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid293 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid293 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8ntpp> .
+_:genid293 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid292 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid294 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid295 .
+_:genid295 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid295 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid295 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid294 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid296 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid297 .
+_:genid297 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid297 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid297 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid296 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid298 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid299 .
+_:genid299 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid299 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid299 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid298 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid300 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid301 .
+_:genid301 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid301 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid301 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid300 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid303 .
+_:genid303 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid303 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid303 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid304 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid305 .
+_:genid305 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid305 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid305 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#intervalEquals> .
+_:genid305 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid304 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid281 <http://www.w3.org/2003/11/swrl#head> _:genid306 .
+_:genid306 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid306 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid307 .
+_:genid307 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid307 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid307 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationalPresenceIn> .
+_:genid307 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid306 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid308 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid308 <http://www.w3.org/2000/01/rdf-schema#comment> "Presence of group of Individuals in both node/system and observation (tpp equals)" .
+_:genid308 <http://www.w3.org/2000/01/rdf-schema#label> "S4.1 - Pr in Obs (ttp equals)" .
+_:genid308 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid308 <http://www.w3.org/2003/11/swrl#body> _:genid331 .
+_:genid331 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid329 .
+_:genid329 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid327 .
+_:genid327 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid325 .
+_:genid325 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid323 .
+_:genid323 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid321 .
+_:genid321 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid319 .
+_:genid319 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid317 .
+_:genid317 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid315 .
+_:genid315 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid313 .
+_:genid313 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid311 .
+_:genid311 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid309 .
+_:genid309 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid309 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid310 .
+_:genid310 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid310 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid310 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid310 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid309 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid311 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid312 .
+_:genid312 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid312 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid312 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid311 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid313 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid314 .
+_:genid314 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid314 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid314 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid314 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid313 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid315 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid316 .
+_:genid316 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid316 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid316 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid316 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid315 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid317 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid318 .
+_:genid318 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid318 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid318 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasTimeInterval> .
+_:genid318 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid317 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid319 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid320 .
+_:genid320 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid320 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid319 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid321 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid322 .
+_:genid322 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid322 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid322 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid321 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid323 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid324 .
+_:genid324 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid324 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid324 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid323 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid325 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid326 .
+_:genid326 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid326 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid326 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid325 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid327 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid328 .
+_:genid328 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid328 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid328 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid327 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid329 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid330 .
+_:genid330 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid330 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid330 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8tpp> .
+_:genid330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid329 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid331 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid332 .
+_:genid332 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI2> .
+_:genid332 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PI1> .
+_:genid332 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#intervalEquals> .
+_:genid332 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid331 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid308 <http://www.w3.org/2003/11/swrl#head> _:genid333 .
+_:genid333 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid333 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid334 .
+_:genid334 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid334 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid334 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationalPresenceIn> .
+_:genid334 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid333 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid335 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid335 <http://www.w3.org/2000/01/rdf-schema#comment> "If presence of cluster of individuals happens in one spatial region SO2, it must also happen in a region containing it (SO1):" .
+_:genid335 <http://www.w3.org/2000/01/rdf-schema#label> "S1.3 - Presence SO nttp" .
+_:genid335 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid335 <http://www.w3.org/2003/11/swrl#body> _:genid344 .
+_:genid344 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid342 .
+_:genid342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid340 .
+_:genid340 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid338 .
+_:genid338 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid336 .
+_:genid336 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid336 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid337 .
+_:genid337 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid337 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid337 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid336 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid338 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid339 .
+_:genid339 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid339 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid339 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid339 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid338 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid340 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid341 .
+_:genid341 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid341 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid341 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid340 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid343 .
+_:genid343 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid343 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid343 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid344 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid345 .
+_:genid345 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid345 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid345 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8ntpp> .
+_:genid345 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid344 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid335 <http://www.w3.org/2003/11/swrl#head> _:genid346 .
+_:genid346 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid346 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid347 .
+_:genid347 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid347 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid347 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid347 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid346 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid41 <http://www.w3.org/2000/01/rdf-schema#comment> "If phenomenon happens in one system, it must also happen in its super-system" .
+_:genid41 <http://www.w3.org/2000/01/rdf-schema#label> "S2 - Observation in System" .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid41 <http://www.w3.org/2003/11/swrl#body> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid43 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2> .
+_:genid43 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/seas/hasSubSystem> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid45 .
+_:genid45 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid45 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid45 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid47 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid49 .
+_:genid49 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid49 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2> .
+_:genid51 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://www.w3.org/2003/11/swrl#head> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid53 .
+_:genid53 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2> .
+_:genid53 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid53 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid54 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid54 <http://www.w3.org/2000/01/rdf-schema#comment> "Valid ST Path from gufo begin point" .
+_:genid54 <http://www.w3.org/2000/01/rdf-schema#label> "S5.1 - Valid ST Path from gufo" .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid54 <http://www.w3.org/2003/11/swrl#body> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid56 .
+_:genid56 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1> .
+_:genid56 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid58 .
+_:genid58 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2> .
+_:genid58 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#PhenomenonOccurrence> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid60 .
+_:genid60 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2> .
+_:genid60 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2> .
+_:genid60 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/nemo/gufo#hasBeginPoint> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid62 .
+_:genid62 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid62 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid62 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/nemo/gufo#hasBeginPoint> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2> .
+_:genid64 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid66 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Observation> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid68 .
+_:genid68 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1> .
+_:genid68 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Phenomenon> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid70 .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2> .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2> .
+_:genid70 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationOf> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid72 .
+_:genid72 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1> .
+_:genid72 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid72 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#observationOf> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid74 .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2> .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2> .
+_:genid74 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid76 .
+_:genid76 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid76 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid76 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#happensIn> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid78 .
+_:genid78 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2> .
+_:genid78 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#Instant> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid80 .
+_:genid80 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2> .
+_:genid80 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid80 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/seas/connectedTo> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid82 .
+_:genid82 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S1> .
+_:genid82 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid84 .
+_:genid84 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1> .
+_:genid84 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP2> .
+_:genid84 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#fromPhenomenon> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid86 .
+_:genid86 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid86 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t2> .
+_:genid86 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/2006/time#after> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/t1> .
+_:genid88 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/2006/time#Instant> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid90 .
+_:genid90 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/P1> .
+_:genid90 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/OP1> .
+_:genid90 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#fromPhenomenon> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid92 .
+_:genid92 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/S2> .
+_:genid92 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/seas/System> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid54 <http://www.w3.org/2003/11/swrl#head> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid94 .
+_:genid94 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O2> .
+_:genid94 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/O1> .
+_:genid94 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#hasSTValidPath> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid95 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid95 <http://www.w3.org/2000/01/rdf-schema#comment> "If presence of cluster of individuals happens in one spatial region SO2, it must also happen in a region equals to it (SO1):" .
+_:genid95 <http://www.w3.org/2000/01/rdf-schema#label> "S1.2 - Presence SO eq" .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid95 <http://www.w3.org/2003/11/swrl#body> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid97 .
+_:genid97 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid97 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/propaphen#Presence> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid99 .
+_:genid99 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid99 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid99 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101 .
+_:genid101 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid101 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid101 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.opengis.net/ont/geosparql#rcc8eq> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid103 .
+_:genid103 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO1> .
+_:genid103 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid105 .
+_:genid105 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid105 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid95 <http://www.w3.org/2003/11/swrl#head> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid107 .
+_:genid107 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/SO2> .
+_:genid107 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/alencga1/ontologies/2023/2/PhenOWL/PR1> .
+_:genid107 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/propaphen#spatialPresenceIn> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
