@@ -1,0 +1,1170 @@
+<h2 id="crossreference" class="list">Cross-reference for PropaPhen : Core Propagation Phenomenon Ontology classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by PropaPhen : Core Propagation Phenomenon Ontology.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+      </li>
+      <li>
+         <a href="#PhenomenonOccurrence"
+            title="https://w3id.org/def/propaphen#PhenomenonOccurrence">Phenomenon Occurrence</a>
+      </li>
+      <li>
+         <a href="#Presence" title="https://w3id.org/def/propaphen#Presence">Presence of entities in a network node</a>
+      </li>
+      <li>
+         <a href="#Phenomenon" title="https://w3id.org/def/propaphen#Phenomenon">Propagation Phenomenon Type</a>
+      </li>
+   </ul>
+   <div class="entity" id="Observation">
+      <h3>Observation of Propagation Phenomenon Occurrence<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#Observation</p>
+      <div class="comment">
+         <span class="markdown">As a propagation phenomenon is still a general phenomenon ("
+            Smith, David Woodruff. « Phenomenology ». The Stanford Encyclopedia of Philosophy, édité par Edward N. Zalta, Summer 2018, Metaphysics Research Lab, Stanford University, 2018. Stanford Encyclopedia of Philosophy, https://plato.stanford.edu/archives/sum2018/entries/phenomenology/.
+            "), different points of view or observations may result in different experiences. A phen:Observation is a gufo:Perdurant that represents a spatial-temporal perspective of a phen:PhenomenonOccurrence (i.e., two observations from different people may differ in the number of details one can give).
+
+            In practice, a phen:Observation may be used to identify what gufo:Individual are participating in a phen:PhenomenonOccurrence for a given node of the network for a given time interval.
+
+            As phen:Observation designs a spatial-temporal cluster itself, it can be used to track valid spatial-temporal paths between several pairs of phen:Observation.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#happensIn" title="https://w3id.org/def/propaphen#happensIn">Happens In</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasSTValidPath" title="https://w3id.org/def/propaphen#hasSTValidPath">Has Spatial-Temporal Valid Path</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#observationOf" title="https://w3id.org/def/propaphen#observationOf">Observation</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasSTValidPath" title="https://w3id.org/def/propaphen#hasSTValidPath">Has Spatial-Temporal Valid Path</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#observationalPresenceIn"
+               title="https://w3id.org/def/propaphen#observationalPresenceIn">Observational Presence In</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#O1" title="https://w3id.org/def/propaphen#O1">o1</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#O2" title="https://w3id.org/def/propaphen#O2">o2</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PhenomenonOccurrence">
+      <h3>Phenomenon Occurrence<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#PhenomenonOccurrence</p>
+      <div class="comment">
+         <span class="markdown">A gufo:Perdurant that represents the occurrence of a phen:Phenomenon. Similar to the concept of the occurrence of information being propagated in the social information propagation phenomenon on "Król, Dariusz, Damien Fay, et Bogdan Gabryś, éd. Propagation Phenomena in Real World Networks. Vol. 85. Intelligent Systems Reference Library. Cham: Springer International Publishing, 2015. https://doi.org/10.1007/978-3-319-15916-4.". Another example would be an outburst in a network from a particular virus type.
+
+        For example, the occurrence of a hurricane in Paris is different from the occurrence of a hurricane in the United States if they are happening simultaneously. Therefore, they are two different instances of phen:PhenomenonOccurrence of the same phen:Phenomenon (Hurricane).</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#fromPhenomenon" title="https://w3id.org/def/propaphen#fromPhenomenon">fromPhenomenon</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#observationOf" title="https://w3id.org/def/propaphen#observationOf">Observation</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#PO1" title="https://w3id.org/def/propaphen#PO1">p o1</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PO2" title="https://w3id.org/def/propaphen#PO2">p o2</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Presence">
+      <h3>Presence of entities in a network node<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#Presence</p>
+      <div class="comment">
+         <span class="markdown">A gufo:Perdurant whose sole purpose is to identify the presence of instances of gufo:Individual in a node of the network or, consequently, in a phen:Observation for a given time interval.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#observationalPresenceIn"
+               title="https://w3id.org/def/propaphen#observationalPresenceIn">Observational Presence In</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#spatialPresenceIn" title="https://w3id.org/def/propaphen#spatialPresenceIn">Spatial Presence In</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#presenceOf" title="https://w3id.org/def/propaphen#presenceOf">presence of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasPresence" title="https://w3id.org/def/propaphen#hasPresence">Has Presence</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#pr1" title="https://w3id.org/def/propaphen#pr1">pr1</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Phenomenon">
+      <h3>Propagation Phenomenon Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#Phenomenon</p>
+      <div class="comment">
+         <span class="markdown">It is based on the meaning of the Propagation Phenomenon presented by "Król, Dariusz, Damien Fay, et Bogdan Gabryś, éd. Propagation Phenomena in Real World Networks. Vol. 85. Intelligent Systems Reference Library. Cham: Springer International Publishing, 2015. https://doi.org/10.1007/978-3-319-15916-4."
+        A phenomenon is a gufo:Perdurant that defines a fact or event of scientific interest susceptible to scientific description and explanation (Merriam-Webster dictionary). It does not define the occurrence of a phenomenon but the study of a type of it (i.e., Epidemic phenomena such as COVID-19, Influenza, etc.). As the mentioned phenomena, the study of a phenomenon may only be valid from the first occurrence of it until the last occurrence of it.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#characterizes" title="https://w3id.org/def/propaphen#characterizes">Characterizes</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#fromPhenomenon" title="https://w3id.org/def/propaphen#fromPhenomenon">fromPhenomenon</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#P1" title="https://w3id.org/def/propaphen#P1">p1</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#characterizes" title="https://w3id.org/def/propaphen#characterizes">Characterizes</a>
+      </li>
+      <li>
+         <a href="#hasTimeInterval" title="https://w3id.org/def/propaphen#hasTimeInterval">Entity's Proper Time Interaval</a>
+      </li>
+      <li>
+         <a href="#fromPhenomenon" title="https://w3id.org/def/propaphen#fromPhenomenon">fromPhenomenon</a>
+      </li>
+      <li>
+         <a href="#happensIn" title="https://w3id.org/def/propaphen#happensIn">Happens In</a>
+      </li>
+      <li>
+         <a href="#hasPresence" title="https://w3id.org/def/propaphen#hasPresence">Has Presence</a>
+      </li>
+      <li>
+         <a href="#hasSpatialObject" title="https://w3id.org/def/propaphen#hasSpatialObject">Has Spatial Object</a>
+      </li>
+      <li>
+         <a href="#hasSTValidPath" title="https://w3id.org/def/propaphen#hasSTValidPath">Has Spatial-Temporal Valid Path</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2006/time#intervalEquals" title="http://www.w3.org/2006/time#intervalEquals">
+            <span>interval equals</span>
+         </a>
+      </li>
+      <li>
+         <a href="#observationOf" title="https://w3id.org/def/propaphen#observationOf">Observation</a>
+      </li>
+      <li>
+         <a href="#observationalPresenceIn"
+            title="https://w3id.org/def/propaphen#observationalPresenceIn">Observational Presence In</a>
+      </li>
+      <li>
+         <a href="#presenceOf" title="https://w3id.org/def/propaphen#presenceOf">
+            <span>presence of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8dc" title="http://www.opengis.net/ont/geosparql#rcc8dc">
+            <span>rcc8dc</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8ec" title="http://www.opengis.net/ont/geosparql#rcc8ec">
+            <span>rcc8ec</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8eq" title="http://www.opengis.net/ont/geosparql#rcc8eq">
+            <span>rcc8eq</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8ntpp" title="http://www.opengis.net/ont/geosparql#rcc8ntpp">
+            <span>rcc8ntpp</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8ntppi" title="http://www.opengis.net/ont/geosparql#rcc8ntppi">
+            <span>rcc8ntppi</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8po" title="http://www.opengis.net/ont/geosparql#rcc8po">
+            <span>rcc8po</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8tpp" title="http://www.opengis.net/ont/geosparql#rcc8tpp">
+            <span>rcc8tpp</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.opengis.net/ont/geosparql#rcc8tppi" title="http://www.opengis.net/ont/geosparql#rcc8tppi">
+            <span>rcc8tppi</span>
+         </a>
+      </li>
+      <li>
+         <a href="#spatialPresenceIn" title="https://w3id.org/def/propaphen#spatialPresenceIn">Spatial Presence In</a>
+      </li>
+   </ul>
+   <div class="entity" id="characterizes">
+      <h3>Characterizes<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#characterizes</p>
+      <div class="comment">
+         <span class="markdown">"Identify gufo:Individuals/entities that characterize (are crucial to the existence) of a given phen:Phenomenon."</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://purl.org/nemo/gufo#Entity"
+                  target="_blank"
+                  title="http://purl.org/nemo/gufo#Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Phenomenon" title="https://w3id.org/def/propaphen#Phenomenon">Propagation Phenomenon Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasTimeInterval">
+      <h3>Entity's Proper Time Interaval<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#hasTimeInterval</p>
+      <div class="comment">
+         <span class="markdown">is an additional property to facilitate the application of Allen's interval algebra of the proper time interval between the start and end point of the gufo:ConcreteEntity</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://purl.org/nemo/gufo#ConcreteEntity"
+                  target="_blank"
+                  title="http://purl.org/nemo/gufo#ConcreteEntity">concrete entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2006/time#ProperInterval"
+                  target="_blank"
+                  title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="fromPhenomenon">
+      <h3>fromPhenomenon<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#fromPhenomenon</p>
+      <div class="comment">
+         <span class="markdown">Identifies the phen:Phenomenon that gives the occurrence phen:PhenomenonOccurrence.
+
+
+I.e. A phen:PhenomenonOccurence "Occurence of a Hurricane in Paris" is an occurrence of the phen:Phenomenon "Hurricane".</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PhenomenonOccurrence"
+                  title="https://w3id.org/def/propaphen#PhenomenonOccurrence">Phenomenon Occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Phenomenon" title="https://w3id.org/def/propaphen#Phenomenon">Propagation Phenomenon Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="happensIn">
+      <h3>Happens In<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#happensIn</p>
+      <div class="comment">
+         <span class="markdown">Identifies the seas:System where the phen:Observation happens.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="https://w3id.org/seas/System"
+                  target="_blank"
+                  title="https://w3id.org/seas/System">system</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasPresence">
+      <h3>Has Presence<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#hasPresence</p>
+      <div class="comment">
+         <span class="markdown">Relates an instance of gufo:Individual/entity to its spatiotemporal presence.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://purl.org/nemo/gufo#Entity"
+                  target="_blank"
+                  title="http://purl.org/nemo/gufo#Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Presence" title="https://w3id.org/def/propaphen#Presence">Presence of entities in a network node</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#presenceOf" title="https://w3id.org/def/propaphen#presenceOf">presence of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSpatialObject">
+      <h3>Has Spatial Object<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#hasSpatialObject</p>
+      <div class="comment">
+         <span class="markdown">Relies a gufo:Object to parts of it's geo:SpatialObject.
+
+I.e. A gufo:Object "Country" could be related to one geo:SpatialObject that delimits its entire zone, or it could be related to many geo:SpatialObjects for each gufo:Object "City" that forms the "Country".</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://purl.org/nemo/gufo#Object"
+                  target="_blank"
+                  title="http://purl.org/nemo/gufo#Object">object</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.opengis.net/ont/geosparql#SpatialObject"
+                  target="_blank"
+                  title="http://www.opengis.net/ont/geosparql#SpatialObject">spatial object</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSTValidPath">
+      <h3>Has Spatial-Temporal Valid Path<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#hasSTValidPath</p>
+      <div class="comment">
+         <span class="markdown">Represents a valid spatial-temporal path between two observations.
+
+
+I.e. From the same phen:PhenomenonOccurrence "Hurricane in France on 2019", we may have different phen:Observations like "Hurricane observed in Rouen on November,2019" and "Hurricane observed in Paris on December,2019". We may say that there is a possibility that the Hurricane went from Rouen to Paris, so there is a valid spatial-temporal path between the first and the second observation.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> asymmetric</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2006/time#intervalEquals">
+      <h3>interval equals<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalEquals</p>
+   </div>
+   <div class="entity" id="observationOf">
+      <h3>Observation<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#observationOf</p>
+      <div class="comment">
+         <span class="markdown">Identifies the phen:PhenomenonOccurence observed in the phen:Observation.
+
+I.e. From the same phen:PhenomenonOccurrence "Hurricane in France on 2019", we may have different phen:Observations like "Hurricane observed in Rouen on November,2019" and "Hurricane observed in Paris on December,2019"</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PhenomenonOccurrence"
+                  title="https://w3id.org/def/propaphen#PhenomenonOccurrence">Phenomenon Occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="observationalPresenceIn">
+      <h3>Observational Presence In<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#observationalPresenceIn</p>
+      <div class="comment">
+         <span class="markdown">Relates the phen:Presence of multiple gufo:Individuals in a phen:Observation.
+
+I.e. "Vacines", "Pantients of COVID-19" and "Pneumonia" gufo:Indifiduals were present (phen:Presence) on december of 2020 in the phen:Observation "Spread of COVID-19 in Paris on december of 2020".</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Presence" title="https://w3id.org/def/propaphen#Presence">Presence of entities in a network node</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="presenceOf">
+      <h3>presence of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#presenceOf</p>
+      <div class="comment">
+         <span class="markdown">Presence Of</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Presence" title="https://w3id.org/def/propaphen#Presence">Presence of entities in a network node</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://purl.org/nemo/gufo#Entity"
+                  target="_blank"
+                  title="http://purl.org/nemo/gufo#Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasPresence" title="https://w3id.org/def/propaphen#hasPresence">Has Presence</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8dc">
+      <h3>rcc8dc<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8dc</p>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8ec">
+      <h3>rcc8ec<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8ec</p>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8eq">
+      <h3>rcc8eq<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8eq</p>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8ntpp">
+      <h3>rcc8ntpp<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8ntpp</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> transitive</p>
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.opengis.net/ont/geosparql#rcc8ntppi" title="http://www.opengis.net/ont/geosparql#rcc8ntppi">rcc8ntppi</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8ntppi">
+      <h3>rcc8ntppi<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8ntppi</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> transitive</p>
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.opengis.net/ont/geosparql#rcc8ntpp" title="http://www.opengis.net/ont/geosparql#rcc8ntpp">rcc8ntpp</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8po">
+      <h3>rcc8po<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8po</p>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8tpp">
+      <h3>rcc8tpp<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8tpp</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> transitive</p>
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.opengis.net/ont/geosparql#rcc8tppi" title="http://www.opengis.net/ont/geosparql#rcc8tppi">rcc8tppi</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.opengis.net/ont/geosparql#rcc8tppi">
+      <h3>rcc8tppi<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.opengis.net/ont/geosparql#rcc8tppi</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> transitive</p>
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.opengis.net/ont/geosparql#rcc8tpp" title="http://www.opengis.net/ont/geosparql#rcc8tpp">rcc8tpp</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="spatialPresenceIn">
+      <h3>Spatial Presence In<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#spatialPresenceIn</p>
+      <div class="comment">
+         <span class="markdown">Indicates the presence phen:Presence in a spatial region geo:SpatialObject.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Presence" title="https://w3id.org/def/propaphen#Presence">Presence of entities in a network node</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.opengis.net/ont/geosparql#SpatialObject"
+                  target="_blank"
+                  title="http://www.opengis.net/ont/geosparql#SpatialObject">spatial object</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#f1" title="https://w3id.org/def/propaphen#f1">
+            <span>f1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#f2" title="https://w3id.org/def/propaphen#f2">
+            <span>f2</span>
+         </a>
+      </li>
+      <li>
+         <a href="#f3" title="https://w3id.org/def/propaphen#f3">
+            <span>f3</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Mickel" title="https://w3id.org/def/propaphen#Mickel">
+            <span>mickel</span>
+         </a>
+      </li>
+      <li>
+         <a href="#O1" title="https://w3id.org/def/propaphen#O1">
+            <span>o1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#O2" title="https://w3id.org/def/propaphen#O2">
+            <span>o2</span>
+         </a>
+      </li>
+      <li>
+         <a href="#PO1" title="https://w3id.org/def/propaphen#PO1">
+            <span>p o1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#PO2" title="https://w3id.org/def/propaphen#PO2">
+            <span>p o2</span>
+         </a>
+      </li>
+      <li>
+         <a href="#P1" title="https://w3id.org/def/propaphen#P1">
+            <span>p1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#pr1" title="https://w3id.org/def/propaphen#pr1">
+            <span>pr1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#s1" title="https://w3id.org/def/propaphen#s1">
+            <span>s1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#s2" title="https://w3id.org/def/propaphen#s2">
+            <span>s2</span>
+         </a>
+      </li>
+      <li>
+         <a href="#s3" title="https://w3id.org/def/propaphen#s3">
+            <span>s3</span>
+         </a>
+      </li>
+      <li>
+         <a href="#t1" title="https://w3id.org/def/propaphen#t1">
+            <span>t1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#t2" title="https://w3id.org/def/propaphen#t2">
+            <span>t2</span>
+         </a>
+      </li>
+      <li>
+         <a href="#t3" title="https://w3id.org/def/propaphen#t3">
+            <span>t3</span>
+         </a>
+      </li>
+      <li>
+         <a href="#t4" title="https://w3id.org/def/propaphen#t4">
+            <span>t4</span>
+         </a>
+      </li>
+      <li>
+         <a href="#ti1" title="https://w3id.org/def/propaphen#ti1">
+            <span>ti1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#ti2" title="https://w3id.org/def/propaphen#ti2">
+            <span>ti2</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="f1">
+      <h3>f1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#f1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.opengis.net/ont/geosparql#Feature"
+               target="_blank"
+               title="http://www.opengis.net/ont/geosparql#Feature">feature</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#http://www.opengis.net/ont/geosparql#rcc8ntpp" title="http://www.opengis.net/ont/geosparql#rcc8ntpp">rcc8ntpp</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#s1" title="https://w3id.org/def/propaphen#s1">s1</a>
+         </dd>
+         <dd>
+            <a href="#http://www.opengis.net/ont/geosparql#rcc8tpp" title="http://www.opengis.net/ont/geosparql#rcc8tpp">rcc8tpp</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#f2" title="https://w3id.org/def/propaphen#f2">f2</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="f2">
+      <h3>f2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#f2</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.opengis.net/ont/geosparql#Feature"
+               target="_blank"
+               title="http://www.opengis.net/ont/geosparql#Feature">feature</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="f3">
+      <h3>f3<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#f3</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.opengis.net/ont/geosparql#Feature"
+               target="_blank"
+               title="http://www.opengis.net/ont/geosparql#Feature">feature</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#http://www.opengis.net/ont/geosparql#rcc8eq" title="http://www.opengis.net/ont/geosparql#rcc8eq">rcc8eq</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#f1" title="https://w3id.org/def/propaphen#f1">f1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Mickel">
+      <h3>mickel<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#Mickel</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://purl.org/nemo/gufo#Object"
+               target="_blank"
+               title="http://purl.org/nemo/gufo#Object">object</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPresence" title="https://w3id.org/def/propaphen#hasPresence">Has Presence</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#pr1" title="https://w3id.org/def/propaphen#pr1">pr1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="O1">
+      <h3>o1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#O1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#happensIn" title="https://w3id.org/def/propaphen#happensIn">Happens In</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#s1" title="https://w3id.org/def/propaphen#s1">s1</a>
+         </dd>
+         <dd>
+            <a href="#hasTimeInterval" title="https://w3id.org/def/propaphen#hasTimeInterval">Entity's Proper Time Interaval</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#ti1" title="https://w3id.org/def/propaphen#ti1">ti1</a>
+         </dd>
+         <dd>
+            <a href="#observationOf" title="https://w3id.org/def/propaphen#observationOf">Observation</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PO1" title="https://w3id.org/def/propaphen#PO1">p o1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="O2">
+      <h3>o2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#O2</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Observation" title="https://w3id.org/def/propaphen#Observation">Observation of Propagation Phenomenon Occurrence</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#happensIn" title="https://w3id.org/def/propaphen#happensIn">Happens In</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#s3" title="https://w3id.org/def/propaphen#s3">s3</a>
+         </dd>
+         <dd>
+            <a href="#observationOf" title="https://w3id.org/def/propaphen#observationOf">Observation</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PO2" title="https://w3id.org/def/propaphen#PO2">p o2</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PO1">
+      <h3>p o1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#PO1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PhenomenonOccurrence"
+               title="https://w3id.org/def/propaphen#PhenomenonOccurrence">Phenomenon Occurrence</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#fromPhenomenon" title="https://w3id.org/def/propaphen#fromPhenomenon">fromPhenomenon</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#P1" title="https://w3id.org/def/propaphen#P1">p1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PO2">
+      <h3>p o2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#PO2</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PhenomenonOccurrence"
+               title="https://w3id.org/def/propaphen#PhenomenonOccurrence">Phenomenon Occurrence</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#fromPhenomenon" title="https://w3id.org/def/propaphen#fromPhenomenon">fromPhenomenon</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#P1" title="https://w3id.org/def/propaphen#P1">p1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="P1">
+      <h3>p1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#P1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Phenomenon" title="https://w3id.org/def/propaphen#Phenomenon">Propagation Phenomenon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="pr1">
+      <h3>pr1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#pr1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Presence" title="https://w3id.org/def/propaphen#Presence">Presence of entities in a network node</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasTimeInterval" title="https://w3id.org/def/propaphen#hasTimeInterval">Entity's Proper Time Interaval</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#ti2" title="https://w3id.org/def/propaphen#ti2">ti2</a>
+         </dd>
+         <dd>
+            <a href="#spatialPresenceIn" title="https://w3id.org/def/propaphen#spatialPresenceIn">Spatial Presence In</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#f1" title="https://w3id.org/def/propaphen#f1">f1</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="s1">
+      <h3>s1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#s1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="https://w3id.org/seas/System"
+               target="_blank"
+               title="https://w3id.org/seas/System">system</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="s2">
+      <h3>s2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#s2</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="https://w3id.org/seas/System"
+               target="_blank"
+               title="https://w3id.org/seas/System">system</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="s3">
+      <h3>s3<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#s3</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="https://w3id.org/seas/System"
+               target="_blank"
+               title="https://w3id.org/seas/System">system</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="t1">
+      <h3>t1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#t1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2006/time#Instant"
+               target="_blank"
+               title="http://www.w3.org/2006/time#Instant">instant</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="t2">
+      <h3>t2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#t2</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2006/time#Instant"
+               target="_blank"
+               title="http://www.w3.org/2006/time#Instant">instant</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="t3">
+      <h3>t3<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#t3</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2006/time#Instant"
+               target="_blank"
+               title="http://www.w3.org/2006/time#Instant">instant</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="t4">
+      <h3>t4<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#t4</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2006/time#Instant"
+               target="_blank"
+               title="http://www.w3.org/2006/time#Instant">instant</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ti1">
+      <h3>ti1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#ti1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2006/time#Interval"
+               target="_blank"
+               title="http://www.w3.org/2006/time#Interval">interval</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ti2">
+      <h3>ti2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/propaphen#ti2</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2006/time#Interval"
+               target="_blank"
+               title="http://www.w3.org/2006/time#Interval">interval</a>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="rules">
+   <h3 class="list" id="rule">Rules</h3>
+   <ul class="hlist"/>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
